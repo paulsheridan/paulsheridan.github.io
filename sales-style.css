@@ -1,0 +1,14 @@
+.firstEntry {
+  width: 10em}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  vertical-align: middle;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200;}
+td, th {
+  border: 1px solid #999;
+  overflow: hidden;
+  width: 4em;
+  height: 2em;
+  text-align: left;}

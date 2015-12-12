@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="sales-style.css">
+    <meta charset="utf-8">
+    <title>Pat's Salmon Cookies</title>
+  </head>
+  <body>
+    <section>
+      <fieldset>
+        <legend>Add a New Location Below:</legend>
+        <form id="new_stand">
+          <button id="submit" type="submit">Submit</button>
+          <label for="loc">Location</label>
+          <input id="loc" type="text" name="loc">
+          <label for="min">Minimum</label>
+          <input id="min" type="text" name="min" value="2">
+          <label for="max">Maximum</label>
+          <input id="max" type="text" name="max" value="20">
+          <label for="avg">Average</label>
+          <input id="avg" type="text" name="avg" value="2">
+        </form>
+      </fieldset>
+    </section>
+      <fieldset>
+        <legend>Current Locations:</legend>
+        <section id='hours'></section>
+      </fieldset>
+    <script src='app.js'></script>
+  </body>
+</html>

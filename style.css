@@ -1,0 +1,84 @@
+@import "normalize.css";
+@import "skeleton.css";
+/*
+body * {
+  border: 1px dotted;
+}*/
+
+/*#navbar {
+  background-color: #D8663C;
+}*/
+.head{
+  font-family: 'Merriweather', serif;
+  background-color: #D8663C;
+  color: white;
+}
+.navbar{
+  text-align: center;
+  background-color: gray;
+}
+
+.main h1 {
+  font-family: 'Merriweather', serif;
+  text-align: right;
+  background-color: #636363;
+  color: #D8663C;
+  margin-bottom: 0em;
+}
+
+main p{
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+  font-size: medium;
+}
+
+ul{
+    list-style-type: none;
+}
+.ourstory{
+  background-image: url(img/family.jpg);
+  background-size: 100%;
+}
+
+#merchli{
+  width: 26em;
+}
+
+.merchandise div{
+  padding: 40px;
+  background: lightgray;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.merchandise h1{
+  text-align: right;
+}
+
+.merchandise ul li{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.storytext {
+  padding: 1em;
+  background-color: rgba(255,255,255,.8);
+}
+
+.festival a {
+  font-size: large;
+}
+
+.locations h1 {
+  text-align: right;
+}
+
+.headcontent li {
+  background-color: #D8663C;
+}
+
+.loclist p {
+  margin-bottom: 0em;
+}
