@@ -79,6 +79,7 @@ ul li {
         z-index: 99;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
+        margin-bottom: 22px;
     }
 
     .navbar-spacer {
