@@ -27,7 +27,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .container {
@@ -42,13 +42,13 @@ ul li {
 
 .technologies ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     column-gap: 20px;
 }
 
 .languages ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     column-gap: 20px;
 }
 
