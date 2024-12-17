@@ -7,7 +7,7 @@
     <meta name="description" content="Paul Sheridan's professional resume.">
     <meta name="author" content="Paul Sheridan">
     <title>Resume - Paul Sheridan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
@@ -38,7 +38,7 @@
                     <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
                     <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
                     <li class="navbar-item"><a class="navbar-link" href="#technologies">Technologies</a></li>
-                    <li class="navbar-button navbar-link"><button class="button button-primary" id="download-btn">PDF</button></li>
+                    <!-- <li class="navbar-button navbar-link"><button class="button button-primary" id="download-btn" href="./CV-PaulSheridan-2025.pdf">PDF</button></li> -->
                 </ul>
             </div>
         </nav>
@@ -55,7 +55,7 @@
 
         <section class="summary" id="summary">
             <h2>Summary</h2>
-            <p>I'm a Full Stack Software Developer with 8 years of experience transforming complex domain problems into effective and lasting solutions. 
+            <p>I'm a Full Stack Software Developer with 8 years of experience transforming complex domain problems into effective and lasting solutions.
                 I create value where technology and processes exist, and where thoughtful, incremental changes can result in significant financial impact.
             </p>
         </section>
@@ -65,11 +65,11 @@
             <ul>
                 <li>
                     <strong>Western Washington University</strong> (October 2023 - June 2024)
-                    <ul>            
+                    <ul>
                         <li><strong>App Developer, Contract</strong></li>
                         <ul>
                             <li>
-                                Developed and implemented a strategy to automate repetitive and error-prone tasks 
+                                Developed and implemented a strategy to automate repetitive and error-prone tasks
                                 using Python as well as Java via Ellucian Banner, improving efficiency and reducing manual effort in a university setting.
                             </li>
                         </ul>
@@ -80,10 +80,10 @@
                     <ul>
                         <li><strong>Solution Architect</strong></li>
                         <ul>
-                            <li>Worked directly with clients and internal stakeholders to design business automation 
+                            <li>Worked directly with clients and internal stakeholders to design business automation
                                 solutions based around their specific business needs.
                             </li>
-                            <li>Oversaw the implementation of business-critical infrastructure built in Python and 
+                            <li>Oversaw the implementation of business-critical infrastructure built in Python and
                                 deployed through Thoughtful's platform, leading a team of developers to achieve key success metrics.
                             </li>
                         </ul>
@@ -103,7 +103,7 @@
                     <ul>
                         <li><strong>Software Engineer</strong></li>
                         <ul>
-                            <li>Delivered a logistics data integration pipeline between many EDI formats and JSON, built in TypeScript and 
+                            <li>Delivered a logistics data integration pipeline between many EDI formats and JSON, built in TypeScript and
                                 enabling immediate access to business critical data (purchase orders, bills of lading, invoices, etc.) from across three continents,
                                 utilizing Celigo IPaaS, AWS for data backup and redundancy, as well as monitoring through Datadog.
                             </li>
@@ -121,7 +121,7 @@
                     <ul>
                         <li><strong>Software Engineer</strong></li>
                         <ul>
-                            <li>Lead the creation of code-signing software deployed and scalable through Google Cloud Platform,
+                            <li>Led the creation of code-signing software deployed and scalable through Google Cloud Platform,
                                 rather than requiring on-site Apple machines, reducing the time from code check-in to build
                                 delivery of iOS games from hours to only seconds.</li>
                         </ul>
@@ -170,7 +170,7 @@
                     <ul>
                         <li>Tattoo booking software built with Python and Typescript that aims to simplify the process for both artists and clients.</li>
                         <li>Highly customizable, giving tattoo artists the ability to fine tune their web presence throughout the booking process.</li>
-                        <li>Provides scheduling flow options managed by the artist or the client, dynamically calculating availability, 
+                        <li>Provides scheduling flow options managed by the artist or the client, dynamically calculating availability,
                             to give artists flexibility and control.
                         </li>
                         <li>Offers customizable notifications to the customer leading up to, and after their appointment.</li>
@@ -193,7 +193,7 @@
                         </li>
                         <li>Uses location services to find stores near a customer, ensuring they are within an easy
                             drive of their pickup location.</li>
-                        <li>Provides an interactive interface for each retail store including pick/pack lists to 
+                        <li>Provides an interactive interface for each retail store including pick/pack lists to
                             track and fulfill customers' orders.</li>
                     </ul>
                 </li>
@@ -254,21 +254,6 @@
             </ul>
         </section>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script>
-        document.getElementById('download-btn').addEventListener('click', function () {
-            const element = document.getElementById('resume'); // The container to convert to PDF
-            const options = {
-                margin: 1,
-                filename: 'PaulSheridan_Resume.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
-                pagebreak: { mode: 'avoid-all', before: '#page2el' }
-            };
-            html2pdf().set(options).from(element).save();
-        });
-    </script>
 </body>
 
 </html>
