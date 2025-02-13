@@ -1,259 +1,419 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Paul Sheridan's professional resume."
+        />
+        <meta name="author" content="Paul Sheridan" />
+        <title>Resume - Paul Sheridan</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        />
+        <link
+            href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+            rel="stylesheet"
+            type="text/css"
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Paul Sheridan's professional resume.">
-    <meta name="author" content="Paul Sheridan">
-    <title>Resume - Paul Sheridan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/skeleton.css" />
+        <link rel="stylesheet" href="css/custom.css" />
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/custom.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="js/site.js"></script>
+    </head>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="js/site.js"></script>
-</head>
+    <body>
+        <div class="container" id="resume">
+            <header>
+                <h1>Paul Sheridan</h1>
+                <p>
+                    An experienced, results-driven software engineer with a
+                    passion for building scalable systems. Known for balancing
+                    technical excellence with a pragmatic approach, focused on
+                    creating high-quality, maintainable code and fostering
+                    collaboration across teams.
+                </p>
+                <p>Bellingham, Washington, United States</p>
+            </header>
 
-<body>
-    <div class="container" id="resume">
-        <header>
-            <h1>Paul Sheridan</h1>
-            <p>An experienced, results-driven software engineer with a passion for building scalable systems.
-            Known for balancing technical excellence with a pragmatic approach, focused on creating
-            high-quality, maintainable code and fostering collaboration across teams.</p>
-            <p>Bellingham, Washington, United States</p>
-        </header>
+            <div class="navbar-spacer"></div>
+            <nav class="navbar">
+                <div class="container">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#summary">Summary</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#experience"
+                                >Experience</a
+                            >
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#technical-skills"
+                                >Technical Skills</a
+                            >
+                        </li>
+                        <li class="navbar-button navbar-link">
+                            <a
+                                class="button button-primary"
+                                id="download-btn"
+                                href="assets/paul_sheridan_cv.pdf"
+                                download
+                            >
+                                PDF
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <div class="navbar-spacer"></div>
-        <nav class="navbar">
-            <div class="container">
-                <ul class="navbar-list">
-                    <li class="navbar-item"><a class="navbar-link" href="#summary">Summary</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#technologies">Technologies</a></li>
-                    <!-- <li class="navbar-button navbar-link"><button class="button button-primary" id="download-btn" href="./CV-PaulSheridan-2025.pdf">PDF</button></li> -->
+            <section class="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>
+                        Email:
+                        <a href="mailto:paul.sheridan@me.com"
+                            >paul.sheridan@me.com</a
+                        >
+                    </li>
+                    <li>
+                        LinkedIn:
+                        <a
+                            href="https://www.linkedin.com/in/paulsheridan01"
+                            target="_blank"
+                            >linkedin.com/in/paulsheridan01</a
+                        >
+                    </li>
+                    <li>
+                        GitHub:
+                        <a
+                            href="https://github.com/paulsheridan"
+                            target="_blank"
+                            >github.com/paulsheridan</a
+                        >
+                    </li>
                 </ul>
-            </div>
-        </nav>
+            </section>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li>Email: <a href="mailto:paul.sheridan@me.com">paul.sheridan@me.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/paulsheridan01" target="_blank">linkedin.com/in/paulsheridan01</a>
-                </li>
-                <li>GitHub: <a href="https://github.com/paulsheridan" target="_blank">github.com/paulsheridan</a></li>
-            </ul>
-        </section>
+            <section class="summary" id="summary">
+                <h2>Summary</h2>
+                <p>
+                    I'm a Full Stack Software Developer with 8 years of
+                    experience transforming complex domain problems into
+                    effective and lasting solutions. I create value where
+                    technology and processes exist, and where thoughtful,
+                    incremental changes can result in significant financial
+                    impact.
+                </p>
+            </section>
 
-        <section class="summary" id="summary">
-            <h2>Summary</h2>
-            <p>I'm a Full Stack Software Developer with 8 years of experience transforming complex domain problems into effective and lasting solutions.
-                I create value where technology and processes exist, and where thoughtful, incremental changes can result in significant financial impact.
-            </p>
-        </section>
-
-        <section class="experience" id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <strong>Western Washington University</strong> (October 2023 - June 2024)
-                    <ul>
-                        <li><strong>App Developer, Contract</strong></li>
+            <section class="experience" id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Western Washington University</strong> (October
+                        2023 - June 2024)
                         <ul>
                             <li>
-                                Developed and implemented a strategy to automate repetitive and error-prone tasks
-                                using Python as well as Java via Ellucian Banner, improving efficiency and reducing manual effort in a university setting.
+                                <strong>App Developer, Contract</strong>
+                                <ul>
+                                    <li>
+                                        Automated repetitive and error-prone
+                                        tasks using Python and Java within the
+                                        Ellucian Banner system, improving
+                                        efficiency and reducing manual effort.
+                                    </li>
+                                    <li>
+                                        Designed scalable solutions to enhance
+                                        university operations, improving system
+                                        reliability and performance.
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Thoughtful AI</strong> (October 2022 - June 2023)
-                    <ul>
-                        <li><strong>Solution Architect</strong></li>
+                    </li>
+                    <li>
+                        <strong>Thoughtful, Inc.</strong> (October 2022 - June
+                        2023)
                         <ul>
-                            <li>Worked directly with clients and internal stakeholders to design business automation
-                                solutions based around their specific business needs.
+                            <li>
+                                <strong>Solution Architect</strong>
+                                <ul>
+                                    <li>
+                                        Designed business automation solutions
+                                        tailored to specific client needs.
+                                    </li>
+                                    <li>
+                                        Led a team of four developers in
+                                        implementing business-critical
+                                        infrastructure using Python and
+                                        deploying via Thoughtful's RPA platform.
+                                    </li>
+                                </ul>
                             </li>
-                            <li>Oversaw the implementation of business-critical infrastructure built in Python and
-                                deployed through Thoughtful's platform, leading a team of developers to achieve key success metrics.
-                            </li>
-                        </ul>
-                        <li><strong>Sr. Software Engineer</strong></li>
-                        <ul>
-                            <li>Contributed to all aspects of infrastructure for a rapidly expanding tech startup, creating a
-                                world-class robotic process automation platform including containerization and custom orchestration backends,
-                                advanced telemetry
-                            </li>
-                            <li>Managed customer communication, requirements gathering, product roadmapping, and
-                                delivery for multiple products, catering to diverse external clients.</li>
-                        </ul>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Rad Power Bikes</strong> (September 2020 - July 2022)
-                    <ul>
-                        <li><strong>Software Engineer</strong></li>
-                        <ul>
-                            <li>Delivered a logistics data integration pipeline between many EDI formats and JSON, built in TypeScript and
-                                enabling immediate access to business critical data (purchase orders, bills of lading, invoices, etc.) from across three continents,
-                                utilizing Celigo IPaaS, AWS for data backup and redundancy, as well as monitoring through Datadog.
-                            </li>
-                            <li>Lead a team of 4 engineers in the development of retail tools for online product reservation and in-store pickup
-                                using AWS/Lambda, Python and providing an intuitive interface for both retail employees and customers
-                                built in React/TypeScript, accounting for 1/3 of retail sales.
-                            </li>
-                            <li>Established engineering standards, policies, playbooks, and best practices to enhance
-                                development processes and ensure quality across a rapidly growing team.</li>
-                        </ul>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Big Fish Games</strong> (July 2017 - September 2020)
-                    <ul>
-                        <li><strong>Software Engineer</strong></li>
-                        <ul>
-                            <li>Led the creation of code-signing software deployed and scalable through Google Cloud Platform,
-                                rather than requiring on-site Apple machines, reducing the time from code check-in to build
-                                delivery of iOS games from hours to only seconds.</li>
-                        </ul>
-                        <li><strong>Release Engineer</strong></li>
-                        <ul>
-                            <li>Created and implemented tools that saved hundreds of work hours per month across
-                                multiple teams, significantly enhancing productivity and efficiency.</li>
-                            <li>Leveraged the saved time to build and lead a new scrum team, recruiting and mentoring
-                                employees to focus on high-impact projects, thereby driving innovation and performance.
+                            <li>
+                                <strong>Sr. Software Engineer</strong>
+                                <ul>
+                                    <li>
+                                        Developed a robotic process automation
+                                        platform featuring containerization,
+                                        advanced telemetry, and custom
+                                        orchestration backends.
+                                    </li>
+                                    <li>
+                                        Managed customer communication,
+                                        requirements gathering, product
+                                        roadmapping, and delivery for critical
+                                        systems.
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Donuts Inc.</strong> (March 2017 - July 2017)
-                    <ul>
-                        <li><strong>Software Engineer</strong></li>
+                    </li>
+                    <li>
+                        <strong>Rad Power Bikes</strong> (September 2020 - July
+                        2022)
                         <ul>
-                            <li>Delivered a robust quality-assurance and ops system
-                                via Amazon Lambda serverless architecture, significantly enhancing reliability and
-                                scalability.</li>
-                            <li>Automated the reporting and execution of violations of domain terms of service,
-                                delivering critical information to key stakeholders and ensuring compliance.</li>
+                            <li>
+                                <strong>Software Engineer</strong>
+                                <ul>
+                                    <li>
+                                        Built and deployed a real-time logistics
+                                        data pipeline using TypeScript.
+                                    </li>
+                                    <li>
+                                        Led development of online reservations
+                                        and in-store pickup tools, utilizing AWS
+                                        Lambda, Python, React/TypeScript.
+                                    </li>
+                                    <li>
+                                        Established engineering standards and
+                                        best practices for development
+                                        efficiency.
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
-                    </ul>
-                </li>
-                <li>
-                    <strong>CloudRunner LLC</strong> (August 2016 - February 2017)
-                    <ul>
-                        <li><strong>Jr. Software Engineer</strong></li>
+                    </li>
+                    <li>
+                        <strong>Big Fish Games</strong> (July 2017 - September
+                        2020)
                         <ul>
-                            <li>Worked with a small team to create new server side technologies increasing
-                                the performance, efficiency and stability of ITaaS platform.</li>
-                            <li>Designed and tested functionality of the upcoming marketplace as well as
-                                integrated the current product with a third party billing platform.</li>
+                            <li>
+                                <strong
+                                    >Software Engineer & Release
+                                    Engineer</strong
+                                >
+                            </li>
+                            <ul>
+                                <li>
+                                    Led the creation of code-signing software
+                                    deployed and scalable through Google Cloud
+                                    Platform, rather than requiring on-site
+                                    Apple machines, reducing the time from code
+                                    check-in to build delivery of iOS games from
+                                    hours to only seconds.
+                                </li>
+                                <li>
+                                    Created and implemented tools that saved
+                                    hundreds of work hours per month across
+                                    multiple teams, significantly enhancing
+                                    productivity and efficiency.
+                                </li>
+                                <li>
+                                    Leveraged the saved time to build and lead a
+                                    new scrum team, recruiting and mentoring
+                                    employees to focus on high-impact projects,
+                                    thereby driving innovation and performance.
+                                </li>
+                            </ul>
                         </ul>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+                    </li>
+                    <li>
+                        <strong>Donuts Inc.</strong> (March 2017 - July 2017)
+                        <ul>
+                            <li><strong>Software Engineer</strong></li>
+                            <ul>
+                                <li>
+                                    Delivered a robust quality-assurance and ops
+                                    system via AWS Lambda serverless
+                                    architecture, significantly enhancing
+                                    reliability and scalability.
+                                </li>
+                                <li>
+                                    Automated the reporting and execution of
+                                    violations of domain terms of service,
+                                    delivering critical information to key
+                                    stakeholders and ensuring compliance.
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>CloudRunner LLC</strong> (August 2016 - February
+                        2017)
+                        <ul>
+                            <li><strong>Jr. Software Engineer</strong></li>
+                            <ul>
+                                <li>
+                                    Worked with a small team to create new
+                                    server side technologies increasing the
+                                    performance, efficiency and stability of
+                                    ITaaS platform.
+                                </li>
+                                <li>
+                                    Designed and tested functionality of the
+                                    upcoming marketplace as well as integrated
+                                    the current product with a third party
+                                    billing platform.
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="projects" id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Grackle Booking System</strong> - December 2024
-                    <ul>
-                        <li>Tattoo booking software built with Python and Typescript that aims to simplify the process for both artists and clients.</li>
-                        <li>Highly customizable, giving tattoo artists the ability to fine tune their web presence throughout the booking process.</li>
-                        <li>Provides scheduling flow options managed by the artist or the client, dynamically calculating availability,
-                            to give artists flexibility and control.
-                        </li>
-                        <li>Offers customizable notifications to the customer leading up to, and after their appointment.</li>
-                    </ul>
-                </li>
-                <li><strong>Rad Power Bikes Build Your Own Bike Customizer</strong> - March 2022
-                    <ul>
-                        <li>Rad Power Bikes' customers can now customize their electric bike before purchase on the
-                            company's website. </li>
-                        <li>Queries online and store inventory to provide real-time availability during the customization process.</li>
-                        <li>Provides Rad's Merchandising team with an accessory compatibility UI for
-                            quick and easy updates to the customizer as well as other systems, built with React.</li>
-                        <li>Provides seamless interaction with the company's Shopify-based website and product detail pages.</li>
-                    </ul>
-                </li>
-                <li><strong>Rad In-Store Pickup Platform</strong> - January 2022
-                    <ul>
-                        <li>In-store pickup is a core component of the modern retail experience. Customers are able to
-                            order a product through Rad's familiar website and choose to pick that item up in store.
-                        </li>
-                        <li>Uses location services to find stores near a customer, ensuring they are within an easy
-                            drive of their pickup location.</li>
-                        <li>Provides an interactive interface for each retail store including pick/pack lists to
-                            track and fulfill customers' orders.</li>
-                    </ul>
-                </li>
-                <li><strong>Global Logistics Data Pipeline</strong> - December 2021
-                    <ul>
-                        <li>Rad Power Bikes has logistics partners all over the globe to ensure that products make the
-                            journey from manufacturers to cargo ships, warehouses, and finally to the customers'
-                            doorstep.</li>
-                        <li>Translates various EDI files into modern JSON.</li>
-                        <li>Provides company-wide access to logistics data regarding manufacturing, shipping, and
-                            warehousing via a standardized API and administrative UI.</li>
-                        <li>Exceptionally well monitored and provides immediate, granular notifications wherever issues
-                            arise.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Grackle Tattoo Booking Software</strong> -
+                        December 2024
+                        <ul>
+                            <li>
+                                Tattoo booking software built with Python and
+                                TypeScript.
+                            </li>
+                            <li>
+                                Highly customizable for tattoo artists to
+                                fine-tune their web presence.
+                            </li>
+                            <li>
+                                Offers customizable email and text notifications
+                                via Twilio.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong
+                            >Rad Power Bikes Build Your Own Bike
+                            Customizer</strong
+                        >
+                        - March 2022
+                        <ul>
+                            <li>
+                                Enables customers to customize their electric
+                                bike before purchase.
+                            </li>
+                            <li>
+                                Provides seamless integration with Shopify-based
+                                website and product detail pages.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Rad In-Store Pickup Platform</strong> - January
+                        2022
+                        <ul>
+                            <li>
+                                In-store pickup is a core component of the
+                                modern retail experience. Customers are able to
+                                order a product through Rad's familiar website
+                                and choose to pick that item up in store.
+                            </li>
+                            <li>
+                                Uses location services to find stores near a
+                                customer, ensuring they are within an easy drive
+                                of their pickup location.
+                            </li>
+                            <li>
+                                Provides an interactive interface for each
+                                retail store including pick/pack lists to track
+                                and fulfill customers' orders.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Global Logistics Data Pipeline</strong> -
+                        December 2021
+                        <ul>
+                            <li>
+                                Rad Power Bikes has logistics partners all over
+                                the globe to ensure that products make the
+                                journey from manufacturers to cargo ships,
+                                warehouses, and finally to the customers'
+                                doorstep.
+                            </li>
+                            <li>
+                                Translates various EDI files into modern JSON.
+                            </li>
+                            <li>
+                                Provides company-wide access to logistics data
+                                regarding manufacturing, shipping, and
+                                warehousing via a standardized API and
+                                administrative UI.
+                            </li>
+                            <li>
+                                Exceptionally well monitored and provides
+                                immediate, granular notifications wherever
+                                issues arise.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>Python</li>
-                <li>C#</li>
-                <li>JavaScript/TypeScript</li>
-                <li>Lua</li>
-                <li>Swift</li>
-                <li>Go</li>
-                <li>Ruby</li>
-                <li>Java</li>
-                <li>SQL</li>
-            </ul>
-        </section>
+            <section class="technical-skills" id="technical-skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>
+                        <strong>Programming Languages:</strong> Java, Scala,
+                        Python, Go, TypeScript, JavaScript, C#, LUA, Swift, Ruby
+                    </li>
+                    <li>
+                        <strong>Cloud & Infrastructure:</strong> AWS, GCP,
+                        Docker, Kubernetes, Linux
+                    </li>
+                    <li>
+                        <strong>Databases:</strong> MongoDB, DynamoDB, Redis,
+                        PostgreSQL, MySQL
+                    </li>
+                    <li>
+                        <strong>Distributed Systems:</strong> Microservices,
+                        Event-Driven Architecture, High-Throughput APIs
+                    </li>
+                    <li>
+                        <strong>DevOps & Tooling:</strong> CI/CD (Jenkins,
+                        CircleCI), Infrastructure-as-Code (Terraform,
+                        CloudFormation, AWS SAM)
+                    </li>
+                    <li>
+                        <strong>Frontend & UI:</strong> React, Redux, Tailwind
+                        CSS, Chakra UI
+                    </li>
+                </ul>
+            </section>
 
-        <section class="technologies" id="technologies">
-            <h2>Technologies</h2>
-            <ul>
-                <li>AWS</li>
-                <li>GCP</li>
-                <li>React</li>
-                <li>Django</li>
-                <li>FastAPI</li>
-                <li>PostgreSQL</li>
-                <li>NoSQL Databases</li>
-                <li>Grafana</li>
-                <li>Echo</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Atlassian JIRA</li>
-                <li>Redis</li>
-            </ul>
-        </section>
-
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>Bachelor of Arts in Political Science, Western Washington University, 2010</li>
-                <li>Code Fellows, Advanced Software Development 2016</li>
-            </ul>
-        </section>
-    </div>
-</body>
-
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        Bachelor of Arts in Political Science, Western
+                        Washington University, 2010
+                    </li>
+                    <li>Code Fellows, Advanced Software Development 2016</li>
+                </ul>
+            </section>
+        </div>
+    </body>
 </html>
